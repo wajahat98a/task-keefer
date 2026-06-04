@@ -11,21 +11,21 @@
 <body>
     <div class="header flex">
         <div class="left">
-            <img id="logo" src="./Assets/looo.png" alt="Keffer Logo" class="w-200 h-auto ">
+            <img id="logo" src="./Assets/looo.png" alt="Keffer Logo" class="w-180 h-auto ">
         </div>
         <div class="right">
-            <h1 class="text-2xl md:text-2xl lg:text-2xl font-bold absolute top-0 right-0 py-3 px-3 letter-spacing-wide text-red-800 "
+            <h1 class="text-2xl md:text-2xl lg:text-2xl font-bold absolute top-0 right-0 py-3 pr-8 letter-spacing-wide text-red-800 "
                 id="heading-1">CALL OUR OFFICES NOW!</h1>
-            <div class="border-t-3 border-gray-900 w-70 mt-13 ml-64 mb-1"></div>
+            <div class="border-t-3 border-gray-900 w-70 mt-13 ml-79 mb-1"></div>
             <div
-                class="number text-4xl md:text-3xl lg:text-4xl tracking-widest font-bold absolute top-14 right-0 py-3 px-3 mb-1 ">
+                class="number text-4xl md:text-3xl lg:text-4xl tracking-widest font-bold absolute top-12 right-0 py-3 px-3 mb-1 mr-7 ">
                 540.433.6906</div>
-            <div class="paragraph absolute top-28 right-0 py-3 px-3 text-lg font-bold mb-3" id="paragraph-1">
+            <div class="paragraph absolute top-22 mr-6 right-0 py-3 px-3 text-lg font-bold mb-3" id="paragraph-1">
                 <p>Get Your Question Answered Fast</p>
             </div>
         </div>
     </div>
-    <nav class="navbar bg-red-800 text-white h-12 flex items-center px-4 font-Roboto">
+    <nav class="navbar bg-red-800 text-white h-12 flex items-center px-4 font-Popins pr-10">
         <ul class="flex space-x-12 justify-end w-full text-xl">
             <li class="cursor-pointer">HOME</li>
             <li class="cursor-pointer">BIOGRAPHY</li>
@@ -35,12 +35,81 @@
             <li class="cursor-pointer">CONTACT</li>
         </ul>
     </nav>
-    <div class="second flex">
-        <div class="image px-10 py-10">
-            <img src="./Assets/gurantee_banner.gif" alt="Office Image" class="w-200 h-100  ">
+    <div class="flex">
+        <div class="second flex">
+            <div class="image px-10 py-10">
+                <img src="./Assets/gurantee_banner.gif" alt="Office Image" class="w-200 h-100  ">
+            </div>
         </div>
-        <div class="image-2 my-9 mr-12 h-75">
-            <img src="./Assets/form_bg.jpg" alt="Office Image" class="w-180  h-100">
+        <div class="main">
+            <div class="bg-[url('./Assets/form_bg.jpg')] bg-cover  h-100 flex mt-10 w-130 mr-10">
+                <h1
+                    class="heading bg-red-800 flex h-13 justify-content-center text-3xl pl-2 pt-2 font-Poppins w-50 font-bold text-white">
+                    QUESTIONS?</h1>
+                <div class=" ml-13 mt-2 text-2xl w-65 h-20 flex flex-row">
+                    <p>Have a <span style="font-weight: bold; font-size: 110%; color:blue;">QUESTION</span><br>About
+                        Your
+                        Case?
+                    </p>
+                </div>
+            </div>
+            <div class="para2">
+                <p class=" -mt-80 text-lg w-115 ml-8 font-monospace">Enter your information and get your
+                    question answered
+                    quickly
+                    and
+                    discreetly or call us at:
+                    <span class="font-bold">540.433.6906</span>
+                <div class="contact-from ml-9 mt-3 ">
+                    <label for="name">Name:</label>
+                    <input class="bg-white border-1" type="text" id="name" name="name" required>
+                </div>
+                <div class="contact-from ml-10 mt-3">
+                    <label for="email">Email:</label>
+                    <input class="bg-white border-1" type="email" id="email" name="email" required>
+                </div>
+                <div class="contact-from ml-8 mt-3">
+                    <label for="phone">Phone:</label>
+                    <input class="bg-white border-1" type="tel" id="phone" name="phone" required>
+                </div>
+                <img class="ml-72 -mt-20 w-50 rotate-10" src="./Assets/confidential.png" alt="Confidential">
+                <textarea class="mt-11 h-16 ml-10 border-1 text-black bg-white w-111"
+                    placeholder="Tell us about your case here..." name=""></textarea>
+                <div class="flex">
+                    <p class="italic mt-3 ml-9 text-grey-500 bg-red-400 w-45">100% privacy guaranteed</p>
+                    <button class="bg-red-800 pr-6 w-70 ml-5 flex-row " type="button">
+                        <p class="text-white font-bold font-Poppins text-lg"> Ask
+                            Us
+                            About
+                            Your Case</p>
+                        <img class="ml-55 -mr-120" src="./Assets/bullet_white.gif" alt="Bullet">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main3 pb-10">
+        <div class="1st">
+            <div>
+                <h1 class="mt-6 ml-15 text-2xl text-grey-400 font-bold">CHARGED WITH <span style="color: red;">
+                        DUI?</span></h1>
+                <h2 class="mt-1 ml-15 text-md text-red-700 font-bold w-50">FREE CASE EVALUATION</h2>
+            </div>
+            <div class="2nd">
+                <p class="mt-2 ml-15 text-black w-50">Being charged with a DUI can be scary. Get the help
+                    you
+                    deserve.</p>
+                <p class="mt-2 ml-15 text-black pb-5 w-50">Click here to let us know how we can help you with your
+                    case.</p>
+                <img class=" -mt-40 ml-70 w-25 h-30" src="./Assets/paste_board.gif" alt="DUI Image">
+            </div>
+        </div>
+        <div class="3rd">
+            <h1 class="ml-140 -mt-50 bg-red-400 text-2xl font-bold w-40 ">LAW BLOG</h1>
+            <p class="ml-140 mt-3 bg-red-400 w-40">Learn more about Virginia Traffic Laws.</p>
+            <div>
+                <img class="ml-195 -mt-20 w-45 h-25" src="./Assets/pic1.gif" alt="Law Blog Image">
+            </div>
         </div>
     </div>
 </body>
